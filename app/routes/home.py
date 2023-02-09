@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-
+n
 bp = Blueprint('home', __name__, url_prefix= '/')
 
 @bp.route('/')
@@ -14,3 +14,4 @@ def login():
 def single(id):
     return render_template('single-post.html')
     
+
